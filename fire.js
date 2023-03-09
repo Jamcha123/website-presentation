@@ -2,13 +2,13 @@ import {initializeApp} from 'firebase/app';
 import {getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithPopup} from 'firebase/auth';
 
 const config = {
-    apiKey: "AIzaSyDko0Co4cV3VCCic8_X9cOxGH0ODYrLoXs",
-    authDomain: "project-8c417.firebaseapp.com",
-    projectId: "project-8c417",
-    storageBucket: "project-8c417.appspot.com",
-    messagingSenderId: "52432743972",
-    appId: "1:52432743972:web:0d8a39774dd9348905b2b1",
-    measurementId: "G-FB1FEKLJRQ"
+    apiKey: "AIzaSyCWJwjl18-FOc65YdCWQ0qwmwJ_mEDxR1A",
+    authDomain: "presentation-c0451.firebaseapp.com",
+    projectId: "presentation-c0451",
+    storageBucket: "presentation-c0451.appspot.com",
+    messagingSenderId: "85157776899",
+    appId: "1:85157776899:web:4b6ac96b00f56d716e4836",
+    measurementId: "G-5V907RSLWD"  
 }
 const app = initializeApp(config);
 const auth = getAuth(app);

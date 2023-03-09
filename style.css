@@ -25,6 +25,7 @@ canvas{
   height: 100vh;
   margin: auto;
   padding: 0;
+  z-index: 2;
 }
 .bar{
   width: 10em;
@@ -70,4 +71,27 @@ li a{
   font-size: x-large;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 8em;
+}
+section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  place-content: center;
+  min-height: 100vh;
+}
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 2s;
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 2s;
+}
+h1{
+  font-size: xx-large;
+  color: wheat;
 }
